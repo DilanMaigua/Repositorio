@@ -13,3 +13,9 @@ Principal::~Principal()
     delete ui;
 }
 
+
+void Principal::on_pushButton_clicked()
+{
+    ui->outSaludo->setText("Probando el boton");
+}
+
